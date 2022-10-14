@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="day"
+            type="String" />
+
+    </data>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:background="@android:drawable/divider_horizontal_textfield"
+        android:backgroundTint="@color/default_text_color"
+        android:gravity="center_horizontal"
+        android:text="@{day}"
+        android:textAlignment="viewStart"
+        android:textColor="@color/text_grey"
+        android:textSize="20sp"
+        tools:text="Today">
+
+    </TextView>
+</layout>
